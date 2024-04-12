@@ -1,0 +1,29 @@
+.contenedor{
+    background-color: black;
+    color: bisque;
+   
+    padding: 15px 10px;
+}
+.socialMedia{
+    flex: 1;
+}
+a{
+    color: bisque;
+}
+.icons{
+    text-align: center; 
+    align-items: center;
+    justify-content: center;   
+}
+.icon{
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.tFooter{
+    font-size: smaller;
+}
+.marcaAgua{
+    font-size: xx-small;
+    margin-top: -10px;
+
+}

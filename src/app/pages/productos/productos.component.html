@@ -1,0 +1,10 @@
+<div class="contenedor">
+    <button class="btn btn-success" (click)="cambiar()">{{btnNomenclatura}}</button>
+    <div *ngIf="visualizacion else tabla">
+        <app-card class="row"></app-card>
+    </div>
+    
+    <ng-template #tabla>
+        <app-tabla></app-tabla>
+    </ng-template>
+</div>
